@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unit 3 Project - Gabriel</title>
+    </head>
+    <body>
+        <!--Between lines 8-12, put the opening of your story-->
+        <div class="title">Trip to Brazil </div>
+        <div class="story-opening">
+            <img
+        alt="picture of the Brazilian flag"   src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png">
+            <h1>Hi! welcome to Brazil!</h1>
+        </div>
+        <!--Change the text of the buttons to the options relevant to your story!-->
+        <div class="buttons">
+            <button class="option-one">Would you like to go to São Paulo?</button>
+            <button class="option-two">Would you like to go to Rio de Janeiro?</button>
+        </div>
+        <p>Press the downkey in the box to go to the end</p>
+
+<input type="text" onkeydown="myFunction()">
+
+<p id="demo"></p>
+
+        <script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Just kidding, scroll it down!";
+}
+</script>
+        <!--Between lines 19-22, put the part of the story the user will see if they picked option one-->
+        <div class="option-one-screen">
+            <h1>Alright, you arrived at São Paulo!</h1>
+            <img alt="pcture of Trip Sao Paulo"
+                 src="https://thumbs.dreamstime.com/z/stamp-tag-airplane-text-welcome-to-sao-paulo-brazil-grunge-rubber-stamp-tag-airplane-text-welcome-to-sao-paulo-111635173.jpg">
+        </div>
+        <!--Between lines 24-27, put the part of the story the user will see if they picked option two-->
+        <div class="option-two-screen">
+            <h1>Alright, you arrived at Rio de Janeiro!</h1>
+            <img alt="picture of Trip Rio de Janeiro"
+                 src="https://thumbs.dreamstime.com/b/stamp-airplane-text-welcome-to-rio-de-janeiro-brazil-grunge-rubber-tag-portuguese-language-too-vector-illustration-111635136.jpg">
+        </div>
+        <!--Between lines 29-32, put the end of the story if the user chose option 1-->
+        <div class="option-one-end">
+            <h1>Have a nice stay in this beautiful city! </h1>
+            <img alt="picture of City Sao Paulo"
+                 src="https://a.cdn-hotels.com/gdcs/production48/d552/fce632fb-e113-4af1-88ab-1d909fe0a8a0.jpg?impolicy=fcrop&w=800&h=533&q=medium">
+        </div>
+        <!--Between lines 29-32, put the end of the story if the user chose option 2-->
+        <div class="option-two-end">
+            <h1>Have a nice stay in this beautiful city! </h1>
+            <img alt="picture of City Rio de Janeiro"
+               src="https://upload.wikimedia.org/wikipedia/commons/9/98/Cidade_Maravilhosa.jpg">
+        </div>
+    </body>
+</html>
